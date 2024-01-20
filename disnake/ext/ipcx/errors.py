@@ -1,7 +1,7 @@
-from disnake import DisnakeException
+from disnake import DiscordException
 
 
-class IPCError(DisnakeException):
+class IPCError(DiscordException):
     """Base IPC exception class"""
 
 
