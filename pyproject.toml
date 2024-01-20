@@ -1,22 +1,22 @@
 [project]
-name = "discord-ext-ipcx"
-description = "Maintained and updated version of discord-ext-ipc for discord.py v2"
+name = "disnake-ext-ipcx"
+description = "Maintained and updated version of disnake-ext-ipc for disnake.py v2"
 version = "0.2.2"
 authors = [
-    { name="No767", email="73260931+No767@users.noreply.github.com"}
+    { name="DiamondBroPlayz", email="73260931+DiamondBroPlayz@users.noreply.github.com"}
 ]
 maintainers = [
-    { name="No767", email="73260931+No767@users.noreply.github.com"}
+    { name="DiamondBroPlayz", email="73260931+DiamondBroPlayz@users.noreply.github.com"}
 ]
 readme = "README.md"
 dynamic = ["dependencies"]
 requires-python = ">=3.8"
 keywords = [
-    "discord.py", 
+    "disnake.py", 
     "asyncio", 
     "networking",
-    "discord-ext-ipcx", 
-    "discord-ext-ipc"
+    "disnake-ext-ipcx", 
+    "disnake-ext-ipc"
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -39,10 +39,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/No767/discord-ext-ipcx"
-Documentation = "https://discord-ext-ipcx.readthedocs.io/en/latest/"
-Repository = "https://github.com/No767/discord-ext-ipcx"
-Issues = "https://github.com/No767/discord-ext-ipcx/issues"
+Homepage = "https://github.com/DiamondBroPlayz/disnake-ext-ipcx"
+Documentation = "https://disnake-ext-ipcx.readthedocs.io/en/latest/"
+Repository = "https://github.com/DiamondBroPlayz/disnake-ext-ipcx"
+Issues = "https://github.com/DiamondBroPlayz/disnake-ext-ipcx/issues"
 
 [project.optional-dependencies]
 docs = [
@@ -65,7 +65,7 @@ dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools]
 packages = [
-    "discord.ext.ipcx"
+    "disnake.ext.ipcx"
 ]
 
 [tool.isort]
@@ -75,7 +75,7 @@ combine_star = true
 line_length = 80
 
 [tool.pyright]
-include = ["discord/ext/ipcx/**"]
+include = ["disnake/ext/ipcx/**"]
 exclude = [
     "**/__pycache__", 
     "**/.mypy_cache", 

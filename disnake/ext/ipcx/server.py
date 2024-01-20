@@ -3,7 +3,7 @@ from typing import Optional
 
 import aiohttp.web
 
-from discord.ext import commands
+from disnake.ext import commands
 
 from .errors import JSONEncodeError
 
@@ -59,7 +59,7 @@ class Server:
 
     Attributes
     ----------
-    bot: :class:`~discord.ext.commands.Bot`
+    bot: :class:`~disnake.ext.commands.Bot`
         Your bot instance. Subclassed bot instances should work as well.
     host: str
         The host to run the IPC Server on. Defaults to localhost.
@@ -200,7 +200,7 @@ class Server:
                 ):
                     error_response = (
                         "IPC route returned values which are not able to be sent over sockets."
-                        " If you are trying to send a discord.py object,"
+                        " If you are trying to send a disnake.py object,"
                         " please only send the data you need."
                     )
                     log.error(error_response)
