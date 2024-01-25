@@ -3,7 +3,8 @@ name = "disnake-ext-ipcx"
 description = "Maintained and updated version of disnake-ext-ipc for disnake.py v2"
 version = "0.2.2"
 authors = [
-    { name="DiamondBroPlayz", email="73260931+DiamondBroPlayz@users.noreply.github.com"}
+    { name="DiamondBroPlayz", email="73260931+DiamondBroPlayz@users.noreply.github.com"},
+    { name="No767", email="73260931+No767@users.noreply.github.com"}
 ]
 maintainers = [
     { name="DiamondBroPlayz", email="73260931+DiamondBroPlayz@users.noreply.github.com"}
@@ -40,7 +41,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/DiamondBroPlayz/disnake-ext-ipcx"
-Documentation = "https://disnake-ext-ipcx.readthedocs.io/en/latest/"
+Documentation = "https://discord-ext-ipcx.readthedocs.io/en/latest/"
 Repository = "https://github.com/DiamondBroPlayz/disnake-ext-ipcx"
 Issues = "https://github.com/DiamondBroPlayz/disnake-ext-ipcx/issues"
 
