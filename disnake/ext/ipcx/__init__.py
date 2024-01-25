@@ -4,12 +4,13 @@ Discord.py IPC Extension
 
 A upgraded version of discord-ext-ipc that now works with discord.py v2.
 
-:copyright: (c) 2020-present Ext-Creators, No767
+
+:copyright: (c) 2020-present Ext-Creators, No767, DiamondBroPlayz
 :license: Apache-2.0, see LICENSE for more details
 """
 
 __title__ = "discord-ext-ipcx"
-__author__ = "Ext-Creators, No767"
+__author__ = "Ext-Creators, No767, DiamondBroPlayz"
 __license__ = "Apache-2.0"
 __copyright__ = "(c) 2020-present Ext-Creators, No767"
 __version__ = "0.2.2"
